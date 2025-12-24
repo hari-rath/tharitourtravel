@@ -88,7 +88,7 @@
 
         <!-- Menu Links (Desktop) -->
         <ul class="hidden md:flex ml:items-center md:space-x-8 text-xl text-yellow-600 font-bold">
-          <li><a class="nav-link active hover:text-blue-700" href="<?php echo base_url('/'); ?>">HOME</a></li>
+          <li><a class="nav-link active hover:text-blue-700" href="<?php echo base_url('/'); ?>">HOME.</a></li>
           <li><a class="nav-link  hover:text-red-700" href="<?= base_url('about'); ?>">ABOUT US</a></li>
           <li><a class="nav-link hover:text-red-700" href="<?= base_url('spiti'); ?>">TOUR PACKAGES</a></li>
           <li><a class="nav-link hover:text-red-700" href="<?= base_url('gallery'); ?>">GALLERY</a></li>
@@ -100,7 +100,7 @@
       <!-- Mobile Menu -->
       <div id="mobileMenu" class="md:hidden hidden mt-4 space-y-2 font-semibold text-yellow-600 text-lg">
         <a href="/" class="block hover:text-blue-700">HOME</a>
-        <a href="<?= base_url('about'); ?>" class="block hover:text-blue-700">ABOUT US.</a>
+        <a href="<?= base_url('about'); ?>" class="block hover:text-blue-700">ABOUT US</a>
         <a href="<?= base_url('spiti'); ?>" class="block hover:text-blue-700">TOUR PACKAGES</a>
         <a href="<?= base_url('gallery'); ?>" class="block hover:text-blue-700">GALLERY</a>
         <a href="<?= base_url('vehicle'); ?>" class="block hover:text-blue-700">VEHICLE RENT</a>
