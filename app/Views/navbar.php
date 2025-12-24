@@ -88,7 +88,7 @@
 
         <!-- Menu Links (Desktop) -->
         <ul class="hidden md:flex ml:items-center md:space-x-8 text-xl text-yellow-600 font-bold">
-          <li><a class="nav-link active hover:text-blue-700" href="<?php echo base_url('/'); ?>">HOME.</a></li>
+          <li><a class="nav-link active hover:text-blue-700" href="<?php echo base_url('/'); ?>">HOME</a></li>
           <li><a class="nav-link  hover:text-red-700" href="<?= base_url('about'); ?>">ABOUT US</a></li>
           <li><a class="nav-link hover:text-red-700" href="<?= base_url('spiti'); ?>">TOUR PACKAGES</a></li>
           <li><a class="nav-link hover:text-red-700" href="<?= base_url('gallery'); ?>">GALLERY</a></li>
