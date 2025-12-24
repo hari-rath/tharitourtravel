@@ -100,7 +100,7 @@
       <!-- Mobile Menu -->
       <div id="mobileMenu" class="md:hidden hidden mt-4 space-y-2 font-semibold text-yellow-600 text-lg">
         <a href="/" class="block hover:text-blue-700">HOME</a>
-        <a href="<?= base_url('about'); ?>" class="block hover:text-blue-700">ABOUT US</a>
+        <a href="<?= base_url('about'); ?>" class="block hover:text-blue-700">ABOUT US.</a>
         <a href="<?= base_url('spiti'); ?>" class="block hover:text-blue-700">TOUR PACKAGES</a>
         <a href="<?= base_url('gallery'); ?>" class="block hover:text-blue-700">GALLERY</a>
         <a href="<?= base_url('vehicle'); ?>" class="block hover:text-blue-700">VEHICLE RENT</a>
