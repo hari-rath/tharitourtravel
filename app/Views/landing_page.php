@@ -840,7 +840,7 @@
       <div class="container">
           <div class="row g-4">
               <div class="col-md-4">
-                  <div class="card shadow-sm border-0 p-3 " style="position: sticky; top: 20px;padding-bottom: 28px !important;">
+                  <div class="card shadow-sm border-0 p-3 " style="position: sticky; top: 20px;padding-bottom: 35px !important;">
                       <h5 class="fw-bold mb-3 border-bottom pb-2" style="font-size: 1.1rem;">Write your valuable Review</h5>
                       <form action="<?= base_url('ReviewController/save') ?>" method="post" class="small"> 
                           <div class="mb-2">
