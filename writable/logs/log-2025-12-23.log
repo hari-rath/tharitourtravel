@@ -1,0 +1,193 @@
+CRITICAL - 2025-12-23 09:44:39 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: /]
+in APPPATH\Views\landing_page.php on line 871.
+ 1 APPPATH\Views\landing_page.php(871): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\landing_page.php', 871)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\landing_page.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('landing_page', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('landing_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-23 09:46:34 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: /]
+in APPPATH\Views\landing_page.php on line 871.
+ 1 APPPATH\Views\landing_page.php(871): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\landing_page.php', 871)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\landing_page.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('landing_page', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('landing_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-23 09:48:40 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: /]
+in APPPATH\Views\landing_page.php on line 871.
+ 1 APPPATH\Views\landing_page.php(871): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\landing_page.php', 871)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\landing_page.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('landing_page', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('landing_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-23 09:51:43 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: /]
+in APPPATH\Views\landing_page.php on line 871.
+ 1 APPPATH\Views\landing_page.php(871): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\landing_page.php', 871)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\landing_page.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('landing_page', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('landing_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-12-23 10:19:22 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for mail.tharitourtravel.com failed: No such host is known.  in D:\xampp2\htdocs\tharitourtravel\system\Email\Email.php:1905
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\xampp2\\htdoc...', 1905)
+#1 D:\xampp2\htdocs\tharitourtravel\system\Email\Email.php(1905): fsockopen('ssl://mail.thar...', 465, NULL, NULL, 10)
+#2 D:\xampp2\htdocs\tharitourtravel\system\Email\Email.php(1818): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\xampp2\htdocs\tharitourtravel\system\Email\Email.php(1703): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\xampp2\htdocs\tharitourtravel\system\Email\Email.php(1597): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\xampp2\htdocs\tharitourtravel\app\Controllers\Home.php(155): CodeIgniter\Email\Email->send()
+#6 D:\xampp2\htdocs\tharitourtravel\system\CodeIgniter.php(933): App\Controllers\Home->send()
+#7 D:\xampp2\htdocs\tharitourtravel\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp2\htdocs\tharitourtravel\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp2\htdocs\tharitourtravel\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp2\htdocs\tharitourtravel\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp2\htdocs\tharitourtravel\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-12-23 10:19:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-23 10:19:22 --> 
+ERROR - 2025-12-23 10:19:22 --> Enquiry email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 23 Dec 2025 10:19:21 +0000
+To: harishrolls@gmail.com
+From: &quot;Thari Tour &amp; Travel&quot; &lt;support@tharitourtravel.com&gt;
+Return-Path: &lt;support@tharitourtravel.com&gt;
+Subject: =?UTF-8?Q?New=20Enquiry=20from=20Website?=
+Reply-To: &lt;support@tharitourtravel.com&gt;
+User-Agent: CodeIgniter
+X-Sender: support@tharitourtravel.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;694a6ca9b1c113.16321822@tharitourtravel.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_694a6ca9b1c241.88243402&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_694a6ca9b1c241.88243402
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Enquiry Details
+
+
+ Field
+ Details
+
+
+ Arrival Date
+ 2025-12-25
+
+
+ Name
+ test name
+
+
+ Phone
+ 8765434567
+
+
+ Email
+ testname@gmail.com
+
+
+ Number of Members
+ 5
+
+
+ Destination
+ kanpur
+
+
+ Message
+ test
+
+
+--B_ALT_694a6ca9b1c241.88243402
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=0A        &lt;html&gt;=0A        &lt;head&gt;=0A            &lt;style&gt;=0A                =
+table {=0A                    border-collapse: collapse;=0A                =
+    width: 100%;=0A                    max-width: 600px;=0A                =
+}=0A                th, td {=0A                    border: 1px solid #4CAF5=
+0;=0A                    padding: 12px;=0A                    text-align: l=
+eft;=0A                }=0A                th {=0A                    backg=
+round-color: #4CAF50;=0A                    color: white;=0A               =
+ }=0A                td {=0A                    background-color: #f9f9f9;=
+=0A                }=0A                h3 {=0A                    color: #3=
+33;=0A                }=0A            &lt;/style&gt;=0A        &lt;/head&gt;=0A        =
+&lt;body&gt;=0A            &lt;h3&gt;New Enquiry Details&lt;/h3&gt;=0A            &lt;table&gt;=0A =
+               &lt;tr&gt;=0A                    &lt;th&gt;Field&lt;/th&gt;=0A                =
+    &lt;th&gt;Details&lt;/th&gt;=0A                &lt;/tr&gt;=0A                &lt;tr&gt;=0A     =
+               &lt;td&gt;Arrival Date&lt;/td&gt;=0A                    &lt;td&gt;2025-12-25&lt;/=
+td&gt;=0A                &lt;/tr&gt;=0A                &lt;tr&gt;=0A                    &lt;t=
+d&gt;Name&lt;/td&gt;=0A                    &lt;td&gt;test name&lt;/td&gt;=0A                &lt;/tr=
+&gt;=0A                &lt;tr&gt;=0A                    &lt;td&gt;Phone&lt;/td&gt;=0A           =
+         &lt;td&gt;8765434567&lt;/td&gt;=0A                &lt;/tr&gt;=0A                &lt;tr&gt;=
+=0A                    &lt;td&gt;Email&lt;/td&gt;=0A                    &lt;td&gt;testname@gm=
+ail.com&lt;/td&gt;=0A                &lt;/tr&gt;=0A                &lt;tr&gt;=0A             =
+       &lt;td&gt;Number of Members&lt;/td&gt;=0A                    &lt;td&gt;5&lt;/td&gt;=0A      =
+          &lt;/tr&gt;=0A                &lt;tr&gt;=0A                    &lt;td&gt;Destinatio=
+n&lt;/td&gt;=0A                    &lt;td&gt;kanpur&lt;/td&gt;=0A                &lt;/tr&gt;=0A    =
+            &lt;tr&gt;=0A                    &lt;td&gt;Message&lt;/td&gt;=0A                 =
+   &lt;td&gt;test&lt;/td&gt;=0A                &lt;/tr&gt;=0A            &lt;/table&gt;=0A        &lt;=
+/body&gt;=0A        &lt;/html&gt;
+
+--B_ALT_694a6ca9b1c241.88243402--</pre>
+CRITICAL - 2025-12-23 10:26:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/header.php"
+[Method: GET, Route: admin/reviews]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/header.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/header', [], true)
+ 3 APPPATH\Views\admin\reviews_list.php(1): view('admin/header')
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\admin\\reviews_list.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reviews_list', [], true)
+ 7 APPPATH\Controllers\ReviewController.php(22): view('admin/reviews_list', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReviewController->list()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-23 10:33:07 --> ErrorException: Undefined variable $images
+[Method: GET, Route: admin/reviews]
+in APPPATH\Views\admin\reviews_list.php on line 159.
+ 1 APPPATH\Views\admin\reviews_list.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $images', 'D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\admin\\reviews_list.php', 159)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp2\\htdocs\\tharitourtravel\\app\\Views\\admin\\reviews_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reviews_list', [], true)
+ 5 APPPATH\Controllers\ReviewController.php(22): view('admin/reviews_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReviewController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
